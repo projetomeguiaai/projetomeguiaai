@@ -6,4 +6,19 @@ O projeto desenvolvido é um sistema que irá, através da inteligência artific
 
 ![Imagem do Projeto](https://i.imgur.com/7k04DAP.png)
 
+## Membros da equipe
+### Estudantes
+- Airton Veloso Barreto;
+- Ana Valéria Almeida Nunes de Alencar;
+- Bernardo Paulino Alves;
+- Cícero Gilson Rodrigues Lima;
+- José Heron Alves Rodrigues;
+- Kaio Pereira de Sousa;
+- Maria Flávia Januário Binda;
+- Selumiel Leite de Alencar Filho;
+- Victor Renan Alves de Oliveira;
+- Viviane Alves de Brito.
+### Professor orientador
+- Luis Lourenço de Oliveira Filho
+
 **Obrigado por visitar nosso projeto!**
