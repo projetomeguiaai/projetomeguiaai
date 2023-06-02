@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="imagem/png" href="imgcontato/SELO-COLOR(2).png" />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="contato.css">
+    <title>Me Guia.AI</title>
+</head>
+<body>
+    <header class="container-cabeçalho">
+        <div class="logo">
+            <img src="imgcontato/SELO-COLOR(2).png" alt="" class="logo1"> 
+            <img src="imgcontato/TEXTO (2).png" alt="" class="nome1"> 
+        </div>
+<ul>
+<li><a href="../index.html">Home</a></li>
+<li><a href="../obetivo/objetivo.html">Objetivo</a></li>
+<li><a href="../aplicativo/aplicativo.html">Aplicativo</a></li>
+<li><a href="#">Contato</a></li>
+</ul>
+   
+</header><!---container cabeçalho-->
+
+<aside>
+<div class="icon-menu" onclick="abrirmenu()">
+    <span><ion-icon name="menu-outline"></ion-icon></span>
+</div><!---icon-menu-->
+
+<div id="barra-menu">
+<ul class="links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../obetivo/objetivo.html">Objetivo</a></li>
+    <li><a href="../aplicativo/aplicativo.html">Aplicativo</a></li>
+    <li><a href="../contato/contato.html">Contato</a></li>
+</ul>
+
+</div><!---barra menu-->
+</aside>
+<main>
+
+<div class="contato">
+    <section> 
+        <h3>Fale conosco</h3>
+        <form class="contato" action="https://api.staticforms.xyz/submit" method="post">
+          <!-- Previne o redirecionamento -->
+          <script>
+            document.querySelector(".contato").addEventListener("submit", (event) => {
+              event.preventDefault();
+              window.location.href = './obrigado.html';
+            });
+          </script>
+          <!-- Previne o redirecionamento -->
+          <label>Nome:</label>
+          <input type="text" nome="name" placeholder="Nome" autocomplete="off">
+          <label>Email:</label>
+          <input type="email" nome="email" placeholder="Email" autocomplete="off">
+          <label>Assunto:</label>
+          <textarea nome="assunto" cols="30" rows="10" placeholder="Assunto"></textarea>
+          <button type="submit"><b>Entrar em contato</b></button>
+          <input type="hidden" name="accessKey" value="6587d7d6-a728-4d5b-a505-8e98b21ceb96">  
+        </form>
+      </section>
+
+
+    </div><!---contato-->
+
+</main>
+
+<footer class="hero-foot">
+    <div class="boxs">
+        <img src="imgcontato/TEXTO (2).png" alt="" class="nomerodape">
+        <img src="imgcontato/SELO-COLOR(2).png" alt="erro" class="imgrodape">
+    </div>
+<div class="boxs">
+<h2>Início</h2>
+<ol>
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../obetivo/objetivo.html">Objetivo</a></li>
+    <li><a href="../aplicativo/aplicativo.html">Aplicativo</a></li>
+    <li><a href="../contato/contato.html">Contato</a></li>
+</ol>
+</div>
+<div class="boxs">
+<h2>Suporte</h2>
+<ol>
+    <li><a target="_blank" href="#">Aplicativo</a></li>
+    <li><a target="_blank" href="https://instagram.com/me_guia.ai?igshid=MzRlODBiNWFlZA==">Instagram</a></li>
+    <li><a target="_blank" href="mailto:projetomeguia.ai@gmail.com" data-address="projetomeguia.ai@gmail.com">Email</a></li>
+</ol>
+</div>
+<div class="boxs">
+<h2>Sobre Nós</h2>
+<p>Grupo de desenvolvimento de projeto, que utiliza a inteligência artificial para melhorar na tecnologia assistiva.</p>
+</div>
+
+<div class="box">
+<a target="_blank" href="https://instagram.com/me_guia.ai?igshid=MzRlODBiNWFlZA==" style="color: white;"><ion-icon name="logo-instagram"></ion-icon></a>
+
+<a target="_blank" href="https://youtube.com/@me_guia.ai1" style="color: white;"><ion-icon name="logo-youtube"></ion-icon></a>
+
+<a target="_blank" href="mailto:projetomeguia.ai@gmail.com" data-address="projetomeguia.ai@gmail.com" style="color: white;"><ion-icon name="mail-outline"></ion-icon></a>
+</div> 
+</footer>
+<div class="footer">
+    <p>&copy; Me Guia.AI 2023. Todos os direitos reservados.</p>
+</div>
+
+
+
+<a id="link-topo" href="#"><ion-icon name="chevron-up-outline"></ion-icon></a>
+<script  type = "module"  src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script> 
+<script  nomodule  src = "https://unpkg .com/ionicons@7.1.0/dist/ionicons/ionicons.js" > </script>
+<script src="contato.js"></script>
+</body>
+</html>

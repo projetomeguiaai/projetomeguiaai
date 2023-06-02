@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    body{
+       background-color: #336698;
+    }
+.obrigado h1{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+    margin-top: 15%;
+}
+.obrigado p{
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 1%;
+}
+.botao{
+   margin-left: 48%;
+}
+@media screen and (max-width: 768px){
+    .botao{
+        margin-left: 46%;
+     } 
+}
+@media screen and (max-width: 415px){
+    .botao{
+        margin-left: 42%;
+     } 
+}

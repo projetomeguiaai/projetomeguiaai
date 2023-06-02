@@ -1,0 +1,496 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box ;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    }
+    body{
+    background-color: #c0c0c0 ;
+    }
+        .container-cabeçalho{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 70px;
+        width: 100%;
+        background:#336698;
+        box-shadow: 0px 10px 10px rgba(28, 28, 28, 0.5);
+        }
+        .logo{
+            margin-left: 2rem;
+            display: flex;
+            align-items: center;
+        }
+        .logo .logo1{
+            width: 50px;
+            height: auto;
+        }
+        .logo .nome1{
+            margin-left: 1rem;
+         width: 150px;
+         height: auto;
+        }
+        ul{
+        display: flex;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        }
+        ul li{
+            margin-right: 2rem;
+            margin-top: 0.8rem ;
+        }
+        ul li a{
+        text-decoration: none;
+        color: white ;
+        font-size: 1.2rem;
+        }
+        ul li a:hover{
+        color: #c0c0c0;
+        transition: 0.5s all;
+        }
+    aside{
+        display: none;
+    }
+    .aplicativo{
+        margin-top: 4.5rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        margin-bottom: 4.5rem;
+        background: #336698;
+        border-radius: 0.5rem;
+        padding: 15px;
+        height: 280px;
+    }
+    .aplicativo, h3{
+        color: white;
+        font-family: sans-serif, Arial, Helvetica;
+        text-align: center;
+        font-size: 1.6rem;
+    }
+    .aplicativo, h3 p{
+        color: white;
+        font-family: sans-serif, Arial, Helvetica;
+        font-size: 1.2rem;
+    }
+    .audioaplicativo{
+        margin-top: 1.5rem; 
+        margin-bottom: 1.5rem; 
+    }
+    .btn{
+        margin-bottom: 1.5rem;
+    }
+    .objetivo{
+        margin-top: 2rem;
+        height: 680px;
+        width: 100%;
+        background: #336698;
+        padding: 15px;
+    }
+    .card{
+        display: flex;
+        margin: 20px 25%;
+    }
+    .audiocaixa1{
+        margin-left: 85px;
+    }
+    .audiocaixa2{
+        margin-left: 85px;
+    }
+    .imgrodape{
+        margin-left: 1.5rem;
+        height: auto;
+        width: 120px;
+    }
+    .footer {
+        background-color: black;
+        color: white;
+        padding: 10px;
+        text-align: center;
+      }
+    footer{
+        display: flex;
+        background: #343434;
+        min-height: 220px;
+        width: 100%;
+    }
+    footer .boxs{
+        width: 320px;
+        min-height: 150px;
+    }
+    
+    .boxs h2{
+        margin-top: 1rem;
+        margin-left: 3rem;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .boxs ol li{
+        margin: 10px 0px;
+        list-style: none;
+        margin-left: 1rem;
+    }
+    .boxs ol li a{
+        color: white;
+        text-decoration: none;
+    }
+    .boxs ol li a:hover{
+        color: #c0c0c0;
+    }
+    .boxs p{
+        margin-left: 3rem;
+        color: white;
+        text-align: justify;
+    }
+    .boxs .nomerodape{
+        width: 150px;
+        height: auto;
+        margin-top: 1rem;
+        margin-left: 3rem;
+    }
+    .boxs .imgrodape{
+        margin-top: 0.5rem;
+        margin-left: 4.3rem;
+    }
+    .footer {
+        background-color: #1d1d1d;
+        color: white;
+        padding: 10px;
+      }
+      .footer p{
+        text-align: center;
+        margin-top: 0.5rem;
+      }
+      .box{
+        width: 5px;
+        margin-top: 1.5rem;
+        margin-left: 5rem;
+        padding: 20px;
+        font-size: 30px;
+      }
+    
+      @media screen and (max-width: 1400px){
+        .box{
+            margin-right: 4rem;
+        }
+        .objetivo{
+            height: auto;
+            padding: 15px;
+        }
+    }
+    @media screen and (max-width: 1290px){
+        .aplicativo{
+            height: 320px;
+        }
+        .objetivo {
+          height: auto;
+          padding: 15px;
+        }
+      
+        .card {
+          display: flex;
+          margin: 20px 15%;
+        }
+      
+        .audiocaixa1,
+        .audiocaixa2{
+          margin-left: 10px;
+        }
+      }
+      @media screen and (max-width: 768px) {
+        ul {
+            display: none;
+        }
+    
+        .links {
+            display: block;
+            position: relative;
+            z-index: 1;
+        }
+    
+        .logo {
+            margin-right: 17rem;
+        }
+    
+        aside {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+            overflow: hidden;
+            z-index: 2;
+        }
+    
+        #barra-menu {
+            background-color: #2f3640;
+            width: 250px;
+            height: 100vh;
+            transition: 0.3s all;
+            position: relative;
+            z-index: 3;
+        }
+    
+        .icon-menu ion-icon {
+            width: 45px;
+            height: 45px;
+            margin-right: 1.5rem;
+            margin-top: 0.7rem;
+            color: white;
+        }
+    
+        #barra-menu ul {
+            align-items: center;
+            text-align: center;
+            padding: 5rem;
+            line-height: 5rem;
+        }
+    
+        #barra-menu ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+            width: 100%;
+        }
+    
+        #barra-menu ul li a:hover {
+            border-radius: 20px;
+            color: #1465bb;
+            transition: 0.5s all;
+        }
+        .aplicativo {
+            margin-top: 4.5rem;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 4.5rem;
+            background: #336698;
+            border-radius: 0.5rem;
+            padding: 15px;
+            height: 330px;
+          }
+          
+          .aplicativo,
+          h3 {
+            color: white;
+            font-family: sans-serif, Arial, Helvetica;
+            text-align: center;
+            font-size: 1.6rem;
+          }
+          
+          .aplicativo,
+          h3 p {
+            color: white;
+            font-family: sans-serif, Arial, Helvetica;
+            font-size: 1.2rem;
+          }
+          
+          .audioaplicativo {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+          }
+          
+          .btn {
+            margin-bottom: 1.5rem;
+          }
+          .objetivo {
+            margin-top: 2rem;
+            height: 680px;
+            padding: 15px;
+          }
+        
+          .card {
+            display: flex;
+            margin: 20px 5%;
+          }
+        
+          .audiocaixa1,
+          .audiocaixa2 {
+            margin-left: 10px;
+          }
+          .imgrodape {
+            margin-left: 1.5rem;
+            height: auto;
+            width: 120px;
+          }
+          .boxs .imgrodape{
+            margin-left: 15%;
+          }
+          footer {
+        
+            width: 100%;
+            min-height: 200px;
+            background: #343434;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            text-align: center;
+        
+          }
+        
+          .boxs {
+            margin-left: 26%;
+          }
+        
+          .box {
+            width: 5px;
+            display: flex;
+            margin-left: 37%;
+            padding: 20px;
+            font-size: 30px;
+            gap: 1rem;
+        
+          }
+          .footer p {
+            text-align: center;
+            margin-top: 0.5rem;
+          }
+    
+    }
+    @media screen and (max-width: 415px){
+        ul {
+            display: none;
+          }
+        
+          .links {
+            display: block;
+            position: relative;
+            z-index: 1;
+          }
+        
+          .logo {
+            margin-right: 17rem;
+          }
+        
+          aside {
+            position: absolute;
+            top: 0;
+            right: 0;
+            display: flex;
+            overflow: hidden;
+            z-index: 2;
+          }
+        
+          #barra-menu {
+            background-color: #2f3640;
+            width: 250px;
+            height: 100vh;
+            transition: 0.3s all;
+            position: relative;
+            z-index: 3;
+          }
+        
+          .icon-menu ion-icon {
+            width: 45px;
+            height: 45px;
+            margin-right: 1.5rem;
+            margin-top: 0.7rem;
+            color: white;
+          }
+        
+          #barra-menu ul {
+            align-items: center;
+            text-align: center;
+            padding: 5rem;
+            line-height: 5rem;
+          }
+        
+          #barra-menu ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.3rem;
+            width: 100%;
+          }
+        
+          #barra-menu ul li a:hover {
+            border-radius: 20px;
+            color: #1465bb;
+            transition: 0.5s all;
+          }
+        .aplicativo {
+            margin-top: 4.5rem;
+            margin-left: 5%;
+            margin-right: 5%;
+            margin-bottom: 4.5rem;
+            background: #336698;
+            border-radius: 0.5rem;
+            padding: 15px;
+            height: 410px;
+          }
+          
+          .aplicativo,
+          h3 {
+            color: white;
+            font-family: sans-serif, Arial, Helvetica;
+            text-align: center;
+            font-size: 1.6rem;
+          }
+          
+          .aplicativo,
+          h3 p {
+            color: white;
+            font-family: sans-serif, Arial, Helvetica;
+            font-size: 1.2rem;
+          }
+          
+          .audioaplicativo {
+            margin-top: 1.5rem;
+            margin-bottom: 1.5rem;
+          }
+          
+          .btn {
+            margin-bottom: 1.5rem;
+          }
+          .objetivo{
+            height: 1520px;
+          }
+          .imgrodape {
+            margin-left: 1.5rem;
+            height: auto;
+            width: 120px;
+          }
+          
+          footer {
+            width: 100%;
+            background: #343434;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+          }
+          
+          .boxs {
+            margin-left: 5%;
+          }
+          .boxs .imgrodape{
+            margin-left: 15%;
+          }
+          
+          .box {
+            width: 5px;
+            display: flex;
+            margin-left: 30%;
+            padding: 20px;
+            font-size: 30px;
+            gap: 1rem;
+          }
+          
+          .footer p {
+            text-align: center;
+            margin-top: 0.5rem;
+          }
+          
+    }
+    #link-topo{
+        text-decoration: none;
+        color: #000000;
+        background-color: rgb(255, 255, 255);
+        padding: 10px;
+        border-radius: 2rem;
+        position: fixed;
+        right: 20px;
+        bottom: 20px;
+        box-shadow: 0px 5px 5px rgba(28, 28, 28, 0.5);
+        }
+        
+        
+    
