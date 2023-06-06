@@ -294,7 +294,7 @@ a.red:visited{
 
   #barra-menu {
     background-color: #2f3640;
-    width: 250px;
+    width: 0px;
     height: 100vh;
     transition: 0.3s all;
     position: relative;
@@ -312,9 +312,11 @@ a.red:visited{
   #barra-menu ul {
     align-items: center;
     text-align: center;
-    padding: 5rem;
+   margin-top: 5rem;
+   margin-left: 1rem;
     line-height: 5rem;
-  }
+}
+
 
   #barra-menu ul li a {
     color: white;
@@ -452,7 +454,64 @@ a.red:visited{
     margin-top: 0.5rem;
   }
 }
+@media screen and (max-width: 540px){
 
+  .objetivo{
+    height: 2600px;
+  }
+  .aplicativo {
+    margin-top: 4.5rem;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 4.5rem;
+    background: #336698;
+    border-radius: 0.5rem;
+    padding: 15px;
+    height: 370px;
+  }
+  .imgrodape {
+    margin-left: 30%;
+    margin-right: auto;
+    height: auto;
+    width: 120px;
+  }
+  
+  .boxs .imgrodape {
+    margin-left: 15%;
+    margin-right: auto;
+  }
+  
+  footer {
+    width: 100%;
+    min-height: 200px;
+    background: #343434;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  .boxs {
+    margin-left: 16%;
+    margin-right: auto;
+  }
+  
+  .box {
+    width: 5px;
+    display: flex;
+    margin-left: 35%;
+    margin-right: auto;
+    padding: 20px;
+    font-size: 30px;
+    gap: 1rem;
+  }
+  
+  .footer p {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+}
   @media screen and (max-width: 415px) {
     ul {
       display: none;
@@ -479,7 +538,7 @@ a.red:visited{
   
     #barra-menu {
       background-color: #2f3640;
-      width: 250px;
+      width: 0px;
       height: 100vh;
       transition: 0.3s all;
       position: relative;
@@ -497,10 +556,11 @@ a.red:visited{
     #barra-menu ul {
       align-items: center;
       text-align: center;
-      padding: 5rem;
+     margin-top: 5rem;
+     margin-left: 1rem;
       line-height: 5rem;
-    }
-  
+  }
+
     #barra-menu ul li a {
       color: white;
       text-decoration: none;
@@ -643,7 +703,96 @@ a.red:visited{
     }
     
   }
+  @media screen and (max-width: 376px){
+    
+    .card {
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px 2%;
+    }
+    
+    .audiocaixa1,
+    .audiocaixa2,
+    .audiocaixa3 {
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+    }
+    
+    .aplicativo {
+      margin-top: 4.5rem;
+      margin-left: 2%;
+      margin-right: 2%;
+      margin-bottom: 4.5rem;
+      background: #336698;
+      border-radius: 0.5rem;
+      padding: 15px;
+      height: 370px;
+    }
+    
+    .aplicativo,
+    h3 {
+      color: white;
+      font-family: sans-serif, Arial, Helvetica;
+      text-align: center;
+      font-size: 1.4rem;
+    }
+    
+    .aplicativo,
+    h3 p {
+      color: white;
+      font-family: sans-serif, Arial, Helvetica;
+      font-size: 1.1rem;
+    }
+    
+    .audioaplicativo {
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+    }
+    
+    .btn {
+      margin-bottom: 1rem;
+    }
+    
 
+    .imgrodape {
+      margin-left: 1.5rem;
+      height: auto;
+      width: 120px;
+    }
+    .boxs .imgrodape{
+      margin-left: 15%;
+    }
+    
+    footer {
+      width: 100%;
+      background: #343434;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+    
+    .boxs {
+      margin-left: 2%;
+    }
+    
+    .box {
+      width: 5px;
+      display: flex;
+      margin-left: 28%;
+      padding: 20px;
+      font-size: 30px;
+      gap: 1rem;
+    }
+    
+    .footer p {
+      text-align: center;
+      margin-top: 0.5rem;
+    }
+    
+  }
+  
 
 #link-topo {
   text-decoration: none;
