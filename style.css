@@ -703,7 +703,7 @@ a.red:visited{
     }
     
   }
-  @media screen and (max-width: 390px){
+  @media screen and (max-width: 415px){
     
     .card {
       flex-wrap: wrap;
@@ -792,14 +792,14 @@ a.red:visited{
     }
     
   }
-  @media screen and (max-width: 361px){
+  @media screen and (max-width: 376px){
     .card {
       flex-wrap: wrap;
       justify-content: center;
       margin: 25px 0%;
     }
   }
-
+  
 #link-topo {
   text-decoration: none;
   color: #000000;
