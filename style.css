@@ -512,7 +512,11 @@ a.red:visited{
     margin-top: 0.5rem;
   }
 }
+<<<<<<< HEAD
   @media screen and (max-width: 500px) {
+=======
+  @media screen and (max-width: 415px) {
+>>>>>>> 003b879563cf61302616b140713a8c13d9ff947d
     ul {
       display: none;
     }
@@ -703,7 +707,11 @@ a.red:visited{
     }
     
   }
+<<<<<<< HEAD
   @media screen and (max-width: 415px){
+=======
+  @media screen and (max-width: 376px){
+>>>>>>> 003b879563cf61302616b140713a8c13d9ff947d
     
     .card {
       flex-wrap: wrap;
@@ -792,6 +800,7 @@ a.red:visited{
     }
     
   }
+<<<<<<< HEAD
   @media screen and (max-width: 376px){
     .card {
       flex-wrap: wrap;
@@ -800,6 +809,10 @@ a.red:visited{
     }
   }
   
+=======
+  
+
+>>>>>>> 003b879563cf61302616b140713a8c13d9ff947d
 #link-topo {
   text-decoration: none;
   color: #000000;

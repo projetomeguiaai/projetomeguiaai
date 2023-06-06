@@ -542,7 +542,11 @@
           }
           
     }
+<<<<<<< HEAD
     @media screen and (max-width: 390px){
+=======
+    @media screen and (max-width: 376px){
+>>>>>>> 003b879563cf61302616b140713a8c13d9ff947d
     .aplicativo{
       height: 420px;
     }
@@ -597,6 +601,7 @@
       }
       
     }
+<<<<<<< HEAD
     @media screen and (max-width: 376px){
       .card {
         flex-wrap: wrap;
@@ -643,6 +648,8 @@
           }
     }
   
+=======
+>>>>>>> 003b879563cf61302616b140713a8c13d9ff947d
     #link-topo{
         text-decoration: none;
         color: #000000;
