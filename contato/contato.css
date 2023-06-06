@@ -209,6 +209,7 @@
             display: block;
             position: relative;
             z-index: 1;
+            
         }
     
         .logo {
@@ -226,7 +227,7 @@
     
         #barra-menu {
             background-color: #2f3640;
-            width: 250px;
+            width: 0px;
             height: 100vh;
             transition: 0.3s all;
             position: relative;
@@ -244,7 +245,8 @@
         #barra-menu ul {
             align-items: center;
             text-align: center;
-            padding: 5rem;
+           margin-top: 5rem;
+           margin-left: 2rem;
             line-height: 5rem;
         }
     
@@ -321,6 +323,52 @@
           }
     
     }
+    @media screen and (max-width: 540px){
+
+     
+      .imgrodape {
+        margin-left: 30%;
+        margin-right: auto;
+        height: auto;
+        width: 120px;
+      }
+  
+      .boxs .imgrodape {
+        margin-left: 15%;
+        margin-right: auto;
+      }
+      
+      footer {
+        width: 100%;
+        min-height: 200px;
+        background: #343434;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+      }
+      
+      .boxs {
+        margin-left: 16%;
+        margin-right: auto;
+      }
+      
+      .box {
+        width: 5px;
+        display: flex;
+        margin-left: 35%;
+        margin-right: auto;
+        padding: 20px;
+        font-size: 30px;
+        gap: 1rem;
+      }
+      
+      .footer p {
+        text-align: center;
+        margin-top: 0.5rem;
+      }
+    }
     @media screen and (max-width: 415px){
         .imgrodape {
             margin-left: 1.5rem;
@@ -359,7 +407,83 @@
           
     }
     
+    @media screen and (max-width: 390px){
     
+        .imgrodape {
+          margin-left: 1.5rem;
+          height: auto;
+          width: 120px;
+        }
+        .boxs .imgrodape{
+          margin-left: 15%;
+        }
+        
+        footer {
+          width: 100%;
+          background: #343434;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          text-align: center;
+        }
+        
+        .boxs {
+          margin-left: 2%;
+        }
+        
+        .box {
+          width: 5px;
+          display: flex;
+          margin-left: 28%;
+          padding: 20px;
+          font-size: 30px;
+          gap: 1rem;
+        }
+        
+        .footer p {
+          text-align: center;
+          margin-top: 0.5rem;
+        }
+        
+      }
+      @media screen and (max-width: 361px){
+        
+            .imgrodape {
+              margin-left: 1.5rem;
+              height: auto;
+              width: 120px;
+            }
+            .boxs .imgrodape{
+              margin-left: 15%;
+            }
+            
+            footer {
+              width: 100%;
+              background: #343434;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              text-align: center;
+            }
+            
+            .boxs {
+              margin-left: 0%;
+            }
+            
+            .box {
+              width: 5px;
+              display: flex;
+              margin-left: 27%;
+              padding: 20px;
+              font-size: 30px;
+              gap: 1rem;
+            }
+            
+            .footer p {
+              text-align: center;
+              margin-top: 0.5rem;
+            }
+      }
     
     
     #link-topo{
