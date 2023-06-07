@@ -6,6 +6,11 @@
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
+button, a {
+  width: fit-content !important;
+  margin: 0 auto !important;
+}
+
 body {
   background-color: #c0c0c0;
 }
@@ -135,6 +140,7 @@ h3 p {
   background: #336698;
   border-radius: 0.5rem;
   padding: 15px;
+  align-items: center;
 }
 
 .aplicativo,
