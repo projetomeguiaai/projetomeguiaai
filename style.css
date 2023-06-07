@@ -73,7 +73,7 @@ aside {
   margin-left: 39%;
   width: 350px;
   border-radius: 5px;
- 
+
 }
 
 .centro {
@@ -101,23 +101,28 @@ h3 p {
 .audio-primeiro {
   margin: 32px 0;
 }
-.objetivo{
+
+.objetivo {
   height: 1020px;
   width: 100%;
   background: #336698;
   padding: 15px;
 }
-.card{
+
+.card {
   display: flex;
   margin: 20px 25%;
 }
-.audiocaixa1{
+
+.audiocaixa1 {
   margin-left: 85px;
 }
-.audiocaixa2{
+
+.audiocaixa2 {
   margin-left: 85px;
 }
-.audiocaixa3{
+
+.audiocaixa3 {
   margin-left: 85px;
 }
 
@@ -130,7 +135,6 @@ h3 p {
   background: #336698;
   border-radius: 0.5rem;
   padding: 15px;
-  height: 280px;
 }
 
 .aplicativo,
@@ -222,7 +226,7 @@ footer .boxs {
   padding: 10px;
 }
 
-a.red:visited{
+a.red:visited {
   color: red;
 }
 
@@ -231,7 +235,7 @@ a.red:visited{
   margin-top: 0.5rem;
 }
 
-.box{
+.box {
   width: 5px;
   margin-top: 1.5rem;
   margin-left: 5rem;
@@ -239,29 +243,32 @@ a.red:visited{
   font-size: 30px;
 }
 
-@media screen and (max-width: 1290px){
-.objetivo{
-  height: 1200px; ;
-}
-.card {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  margin: 20px 5%;
-}
+@media screen and (max-width: 1290px) {
+  .objetivo {
+    height: 1200px;
+    ;
+  }
 
-.audiocaixa1,
-.audiocaixa2,
-.audiocaixa3 {
-  margin-left: 0;
-  margin-top: 10px;
-}
-  .aplicativo{
-  height: 300px;
-}
-.box{
-  margin-right: 4rem;
-}
+  .card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 5%;
+  }
+
+  .audiocaixa1,
+  .audiocaixa2,
+  .audiocaixa3 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .aplicativo {
+  }
+
+  .box {
+    margin-right: 4rem;
+  }
 }
 
 
@@ -312,10 +319,10 @@ a.red:visited{
   #barra-menu ul {
     align-items: center;
     text-align: center;
-   margin-top: 5rem;
-   margin-left: 1rem;
+    margin-top: 5rem;
+    margin-left: 1rem;
     line-height: 5rem;
-}
+  }
 
 
   #barra-menu ul li a {
@@ -330,20 +337,21 @@ a.red:visited{
     color: #1465bb;
     transition: 0.5s all;
   }
+
   .img-hero {
     margin: 27px 5%;
     margin-left: 35%;
     width: 30%;
     border-radius: 5px;
   }
-  
+
   .centro {
     margin-top: 2rem;
     margin-bottom: 2rem;
     background: #336698;
     padding: 15px 30px;
   }
-  
+
   .centro,
   h3 {
     color: white;
@@ -351,36 +359,36 @@ a.red:visited{
     text-align: center;
     font-size: 1.6rem;
   }
-  
+
   .centro,
   h3 p {
     color: white;
     font-family: sans-serif, Arial, Helvetica;
     font-size: 1.2rem;
   }
-  
+
   .objetivo {
     margin-top: 5rem;
     height: 1050px;
     width: 100%;
     background: #336698;
   }
-  
+
   .audio-primeiro {
     margin: 32px 0;
   }
-  
+
   .card {
     display: flex;
     margin: 20px 5%;
   }
-  
+
   .audiocaixa1,
   .audiocaixa2,
   .audiocaixa3 {
     margin-left: 10px;
   }
-  
+
   .aplicativo {
     margin-top: 4.5rem;
     margin-left: 5%;
@@ -389,9 +397,8 @@ a.red:visited{
     background: #336698;
     border-radius: 0.5rem;
     padding: 15px;
-    height: 330px;
   }
-  
+
   .aplicativo,
   h3 {
     color: white;
@@ -399,31 +406,33 @@ a.red:visited{
     text-align: center;
     font-size: 1.6rem;
   }
-  
+
   .aplicativo,
   h3 p {
     color: white;
     font-family: sans-serif, Arial, Helvetica;
     font-size: 1.2rem;
   }
-  
+
   .audioaplicativo {
     margin-top: 1.5rem;
     margin-bottom: 1.5rem;
   }
-  
+
   .btn {
     margin-bottom: 1.5rem;
   }
-  
+
   .imgrodape {
     margin-left: 1.5rem;
     height: auto;
     width: 120px;
   }
-  .boxs .imgrodape{
+
+  .boxs .imgrodape {
     margin-left: 15%;
   }
+
   footer {
 
     width: 100%;
@@ -449,47 +458,58 @@ a.red:visited{
     gap: 1rem;
 
   }
+
   .footer p {
     text-align: center;
     margin-top: 0.5rem;
   }
 }
-@media screen and (max-width: 540px){
+
+@media screen and (max-width: 540px) {
   footer {
     padding: 24px 12px;
   }
+
   ol {
     padding: 0 !important;
   }
+
   h2 {
     margin: 0 !important;
   }
+
   li {
     margin: 0 !important;
   }
+
   p {
     margin: 0 !important;
     padding: 8px 18px;
   }
+
   .imgrodape {
     width: 100%;
     height: 100%;
     margin: 0 !important;
     object-fit: cover;
   }
+
   .box {
     width: 100%;
     margin-left: 25%;
   }
+
   .boxs {
     display: flex;
     flex-direction: column;
     align-items: center;
     margin: 0 !important;
   }
-  .objetivo{
+
+  .objetivo {
     height: 2700px;
   }
+
   .aplicativo {
     margin-top: 4.5rem;
     margin-left: 5%;
@@ -498,20 +518,20 @@ a.red:visited{
     background: #336698;
     border-radius: 0.5rem;
     padding: 15px;
-    height: 370px;
   }
+
   .imgrodape {
     margin-left: 30%;
     margin-right: auto;
     height: auto;
     width: 120px;
   }
-  
+
   .boxs .imgrodape {
     margin-left: 15%;
     margin-right: auto;
   }
-  
+
   footer {
     width: 100%;
     min-height: 200px;
@@ -522,12 +542,12 @@ a.red:visited{
     justify-content: center;
     text-align: center;
   }
-  
+
   .boxs {
     margin-left: 16%;
     margin-right: auto;
   }
-  
+
   .box {
     width: 5px;
     display: flex;
@@ -537,311 +557,312 @@ a.red:visited{
     font-size: 30px;
     gap: 1rem;
   }
-  
+
   .footer p {
     text-align: center;
     margin-top: 0.5rem;
   }
 }
-  @media screen and (max-width: 500px) {
-    ul {
-      display: none;
-    }
-  
-    .links {
-      display: block;
-      position: relative;
-      z-index: 1;
-    }
-  
-    .logo {
-      margin-right: 17rem;
-    }
-  
-    aside {
-      position: absolute;
-      top: 0;
-      right: 0;
-      display: flex;
-      overflow: hidden;
-      z-index: 2;
-    }
-  
-    #barra-menu {
-      background-color: #2f3640;
-      width: 0px;
-      height: 100vh;
-      transition: 0.3s all;
-      position: relative;
-      z-index: 3;
-    }
-  
-    .icon-menu ion-icon {
-      width: 45px;
-      height: 45px;
-      margin-right: 1.5rem;
-      margin-top: 0.7rem;
-      color: white;
-    }
-  
-    #barra-menu ul {
-      align-items: center;
-      text-align: center;
-     margin-top: 5rem;
-     margin-left: 1rem;
-      line-height: 5rem;
+
+@media screen and (max-width: 500px) {
+  ul {
+    display: none;
   }
 
-    #barra-menu ul li a {
-      color: white;
-      text-decoration: none;
-      font-size: 1.3rem;
-      width: 100%;
-    }
-  
-    #barra-menu ul li a:hover {
-      border-radius: 20px;
-      color: #1465bb;
-      transition: 0.5s all;
-    }
-    .img-hero {
-      margin: 27px 5%;
-      margin-left: 33%;
-      width: 35%;
-      border-radius: 5px;
-    }
-    
-    .centro {
-      margin-top: 2rem;
-      margin-bottom: 2rem;
-      background: #336698;
-      padding: 15px 30px;
-    }
-    
-    .centro,
-    h3 {
-      color: white;
-      font-family: sans-serif, Arial, Helvetica;
-      text-align: center;
-      font-size: 1.6rem;
-    }
-    
-    .centro,
-    h3 p {
-      color: white;
-      font-family: sans-serif, Arial, Helvetica;
-      font-size: 1.2rem;
-    }
-    
-  
-    
-    .audio-primeiro {
-      margin: 32px 0;
-    }
-    
-    .objetivo {
-      margin-top: 5rem;
-      height: 2700px;
-      width: 100%;
-      background: #336698;
-     
-      flex-direction: column;
-      align-items: center;
-    }
-  
-    .card {
-      
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 20px 5%;
-    }
-  
-    .audiocaixa1,
-    .audiocaixa2,
-    .audiocaixa3 {
-      margin-left: 0;
-      margin-top: 10px;
-    }
-    .aplicativo {
-      margin-top: 4.5rem;
-      margin-left: 5%;
-      margin-right: 5%;
-      margin-bottom: 4.5rem;
-      background: #336698;
-      border-radius: 0.5rem;
-      padding: 15px;
-      height: 410px;
-    }
-    
-    .aplicativo,
-    h3 {
-      color: white;
-      font-family: sans-serif, Arial, Helvetica;
-      text-align: center;
-      font-size: 1.6rem;
-    }
-    
-    .aplicativo,
-    h3 p {
-      color: white;
-      font-family: sans-serif, Arial, Helvetica;
-      font-size: 1.2rem;
-    }
-    
-    .audioaplicativo {
-      margin-top: 1.5rem;
-      margin-bottom: 1.5rem;
-    }
-    
-    .btn {
-      margin-bottom: 1.5rem;
-    }
-    
-    .imgrodape {
-      margin-left: 1.5rem;
-      height: auto;
-      width: 120px;
-    }
-    .boxs .imgrodape{
-      margin-left: 15%;
-    }
-    
-    footer {
-      width: 100%;
-      background: #343434;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-    }
-    
-    .boxs {
-      margin-left: 5%;
-    }
-    
-    .box {
-      width: 5px;
-      display: flex;
-      margin-left: 26%;
-      padding: 20px;
-      font-size: 30px;
-      gap: 1rem;
-    }
-    
-    .footer p {
-      text-align: center;
-      margin-top: 0.5rem;
-    }
-    
+  .links {
+    display: block;
+    position: relative;
+    z-index: 1;
   }
-  @media screen and (max-width: 376px){
-    .objetivo{
-      height: 2500px;
-    }
-    .card {
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 20px 2%;
-      display: flex;
-      flex-direction: column;
-    }
 
-    .card-body {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-
-    audio {
-      width: 200px;
-    }
-  
-    
-    .audiocaixa1,
-    .audiocaixa2,
-    .audiocaixa3 {
-      width: 100%;
-      margin: 0;
-      display: flex;
-      justify-content: center;
-    }
-    
-    .aplicativo {
-      margin-top: 4.5rem;
-      margin-left: 2%;
-      margin-right: 2%;
-      margin-bottom: 4.5rem;
-      background: #336698;
-      border-radius: 0.5rem;
-      padding: 15px;
-      height: 370px;
-    }
-    
-    .aplicativo,
-    h3 {
-      color: white;
-      font-family: sans-serif, Arial, Helvetica;
-      text-align: center;
-      font-size: 1.4rem;
-    }
-    
-    .aplicativo,
-    h3 p {
-      color: white;
-      font-family: sans-serif, Arial, Helvetica;
-      font-size: 1.1rem;
-    }
-    
-    .audioaplicativo {
-      margin-top: 1rem;
-      margin-bottom: 1rem;
-    }
-    
-    .btn {
-      margin-bottom: 1rem;
-    }
-    
-
-    .boxs .imgrodape{
-      margin-left: 15%;
-    }
-    
-    footer {
-      width: 100%;
-      background: #343434;
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      text-align: center;
-    }
-    
-    .boxs {
-      margin-left: 2%;
-    }
-    
-    .box {
-      width: 5px;
-      display: flex;
-      margin-left: 28%;
-      padding: 20px;
-      font-size: 30px;
-      gap: 1rem;
-    }
-    
-    .footer p {
-      text-align: center;
-      margin-top: 0.5rem;
-    }
-    
+  .logo {
+    margin-right: 17rem;
   }
-  @media screen and (max-width: 376px){
-    .card {
-      flex-wrap: wrap;
-      justify-content: center;
-      margin: 25px 0%;
-    }
+
+  aside {
+    position: absolute;
+    top: 0;
+    right: 0;
+    display: flex;
+    overflow: hidden;
+    z-index: 2;
   }
-  
+
+  #barra-menu {
+    background-color: #2f3640;
+    width: 0px;
+    height: 100vh;
+    transition: 0.3s all;
+    position: relative;
+    z-index: 3;
+  }
+
+  .icon-menu ion-icon {
+    width: 45px;
+    height: 45px;
+    margin-right: 1.5rem;
+    margin-top: 0.7rem;
+    color: white;
+  }
+
+  #barra-menu ul {
+    align-items: center;
+    text-align: center;
+    margin-top: 5rem;
+    margin-left: 1rem;
+    line-height: 5rem;
+  }
+
+  #barra-menu ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.3rem;
+    width: 100%;
+  }
+
+  #barra-menu ul li a:hover {
+    border-radius: 20px;
+    color: #1465bb;
+    transition: 0.5s all;
+  }
+
+  .img-hero {
+    margin: 27px 5%;
+    margin-left: 33%;
+    width: 35%;
+    border-radius: 5px;
+  }
+
+  .centro {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    background: #336698;
+    padding: 15px 30px;
+  }
+
+  .centro
+  h3 {
+    color: white;
+    font-family: sans-serif, Arial, Helvetica;
+    text-align: center;
+    font-size: 1.6rem;
+  }
+
+  .centro
+  h3 p {
+    color: white;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 1.2rem;
+  }
+
+
+
+  .audio-primeiro {
+    margin: 32px 0;
+  }
+
+  .objetivo {
+    margin-top: 5rem;
+    height: 2700px;
+    width: 100%;
+    background: #336698;
+
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 5%;
+  }
+
+  .audiocaixa1,
+  .audiocaixa2,
+  .audiocaixa3 {
+    margin-left: 0;
+    margin-top: 10px;
+  }
+
+  .aplicativo {
+
+    background: #336698;
+    border-radius: 0.5rem;
+    padding: 15px;
+    margin: 32px 0 !important;
+  }
+
+  .aplicativo
+  h3 {
+    color: white;
+    font-family: sans-serif, Arial, Helvetica;
+    text-align: center;
+    font-size: 1.6rem;
+    font-weight: 800;
+  }
+
+  .aplicativo
+  h3 p {
+    color: white;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 1.2rem;
+  }
+
+  .audioaplicativo {
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .btn {
+    margin-bottom: 1.5rem;
+  }
+
+  .imgrodape {
+    margin-left: 1.5rem;
+    height: auto;
+    width: 120px;
+  }
+
+  .boxs .imgrodape {
+    margin-left: 15%;
+  }
+
+  footer {
+    width: 100%;
+    background: #343434;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .boxs {
+    margin-left: 5%;
+  }
+
+  .box {
+    width: 5px;
+    display: flex;
+    margin-left: 26%;
+    padding: 20px;
+    font-size: 30px;
+    gap: 1rem;
+  }
+
+  .footer p {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+}
+
+@media screen and (max-width: 376px) {
+  .centro {
+    padding: 4px !important;
+  }
+  .objetivo {
+    height: 2500px;
+  }
+
+  .card {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 2%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  audio {
+    width: 250px;
+  }
+
+
+  .audiocaixa1,
+  .audiocaixa2,
+  .audiocaixa3 {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+  }
+
+  .aplicativo {
+   
+  }
+
+  .aplicativo
+  h3 {
+    color: white;
+    font-family: sans-serif, Arial, Helvetica;
+    text-align: center;
+    font-size: 1.4rem;
+  }
+
+  .aplicativo
+  h3 p {
+    color: white;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: 1.1rem;
+  }
+
+  .audioaplicativo {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .btn {
+    margin-bottom: 1rem;
+  }
+
+
+  .boxs .imgrodape {
+    margin-left: 15%;
+  }
+
+  footer {
+    width: 100%;
+    background: #343434;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .boxs {
+    margin-left: 2%;
+  }
+
+  .box {
+    width: 5px;
+    display: flex;
+    margin-left: 28%;
+    padding: 20px;
+    font-size: 30px;
+    gap: 1rem;
+  }
+
+  .footer p {
+    text-align: center;
+    margin-top: 0.5rem;
+  }
+
+}
+
+@media screen and (max-width: 376px) {
+  .card {
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 25px 0%;
+  }
+}
+
 #link-topo {
   text-decoration: none;
   color: #000000;

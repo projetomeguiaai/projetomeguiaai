@@ -8,6 +8,9 @@
     body{
     background-color: #336698 ;
     }
+    audio {
+      width: 220px !important;
+    }
         .container-cabeçalho{
         display: flex;
         justify-content: space-between;
@@ -395,12 +398,11 @@
             margin-top: 0.5rem;
           }
     }
-<<<<<<< HEAD
     @media screen and (max-width: 390px){
-=======
-    @media screen and (max-width: 376px){
->>>>>>> 003b879563cf61302616b140713a8c13d9ff947d
-    
+      audio {
+        width: 300px;
+      }
+
       .imgrodape {
         margin-left: 1.5rem;
         height: auto;
@@ -437,53 +439,6 @@
         margin-top: 0.5rem;
       }
       
-    }
-<<<<<<< HEAD
-    @media screen and (max-width: 361px){
-      .audiocaixa1,
-          .audiocaixa2,
-          .audiocaixa3 {
-            margin-left: 0;
-          }
-          .imgrodape {
-            margin-left: 1.5rem;
-            height: auto;
-            width: 120px;
-          }
-          .boxs .imgrodape{
-            margin-left: 15%;
-          }
-          
-          footer {
-            width: 100%;
-            background: #343434;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            text-align: center;
-          }
-          
-          .boxs {
-            margin-left: 0%;
-          }
-          
-          .box {
-            width: 5px;
-            display: flex;
-            margin-left: 27%;
-            padding: 20px;
-            font-size: 30px;
-            gap: 1rem;
-          }
-          
-          .footer p {
-            text-align: center;
-            margin-top: 0.5rem;
-          }
-    }
-  
-=======
->>>>>>> 003b879563cf61302616b140713a8c13d9ff947d
     #link-topo{
         text-decoration: none;
         color: #000000;
@@ -497,5 +452,5 @@
 
     }
     
-        
+  }
     
